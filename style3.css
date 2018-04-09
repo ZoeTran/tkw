@@ -1,0 +1,105 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+	margin: 8px;
+}
+
+
+.container {
+    width: 1170px;
+}
+.ember-main {
+    background: #fafafa;
+    margin-top: 100px;
+}
+.ember-author-follow-view {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    transition: box-shadow .15s ease;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.image-banner {
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+.image-banner img {
+	transform: translateY(-50%);
+    max-width: 100%;
+}
+
+.avatar {
+    vertical-align: middle;
+    border-radius: 100px;
+    overflow: hidden;
+    height: 64px;
+    width: 64px;
+    display: block;
+    margin: -45px auto 0;
+    position: relative;
+}
+img {
+    max-width: 100%;
+    border: 0px;
+    vertical-align: middle;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	background-color: transparent;
+}
+.username-author {
+    display: block;
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #51535E;
+}
+.specialty {
+    display: block;
+    margin-top: 6px;
+    font-size: 1.3rem;
+}
+
+span {
+	display: block;
+	font-size: 1.6rem;
+	margin-bottom: 6px;
+}
+    
+.user-stats {
+    margin-top: 18px;
+	border-right: 1px solid #DDD;
+}
+.user-follow-button {
+    margin-top: 22px;
+    height: 40px;
+}
+.grey-outline:hover {
+    background-color: #fff000;
+}
+.grey-outline {
+    border-color: #A1A0AF;
+    background: 0 0;
+    color: #51535E;
+}
+ button {
+    height: 100%;
+	width: 120px;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+	border-radius: 99px;
+	display: inline-block;
+	border: 1px solid;
+}
+
